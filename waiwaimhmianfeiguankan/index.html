@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>歪歪漫画免费观看-歪歪漫画免费观看指南与热门推荐</title>
+    <meta name="description" content="歪歪漫画免费观看指南，了解歪歪漫画平台特点、阅读方法、热门作品分类与常见问题，帮助漫画爱好者快速找到免费观看的正规途径。">
+    <meta name="keywords" content="歪歪漫画,歪歪漫画免费观看,漫画免费阅读,歪歪漫画官网,在线漫画">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+            background: #f5f7fa;
+            color: #2c3e50;
+            line-height: 1.7;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #fff;
+            padding: 20px 0;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        .header-inner {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .logo {
+            font-size: 28px;
+            font-weight: 700;
+            letter-spacing: 1px;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.2);
+        }
+        .logo span {
+            color: #ffd700;
+        }
+        nav {
+            background: #fff;
+            border-bottom: 1px solid #e0e4e8;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+        .nav-list {
+            display: flex;
+            list-style: none;
+            flex-wrap: wrap;
+        }
+        .nav-list li a {
+            display: block;
+            padding: 12px 20px;
+            color: #555;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s, background 0.3s;
+            border-radius: 4px;
+        }
+        .nav-list li a:hover {
+            color: #667eea;
+            background: #f0f2ff;
+        }
+        .hero {
+            padding: 60px 0 50px;
+            text-align: center;
+            background: linear-gradient(180deg, #f5f7fa 0%, #eef0f7 100%);
+        }
+        .hero h1 {
+            font-size: 38px;
+            margin-bottom: 15px;
+            color: #4a3f8f;
+            font-weight: 800;
+            line-height: 1.3;
+        }
+        .hero p {
+            font-size: 18px;
+            max-width: 750px;
+            margin: 0 auto 30px;
+            color: #5a6270;
+        }
+        .hero-badge {
+            display: inline-block;
+            background: #667eea;
+            color: #fff;
+            padding: 8px 20px;
+            border-radius: 30px;
+            font-size: 15px;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+            padding: 50px 0;
+        }
+        .feature-card {
+            background: #fff;
+            border-radius: 12px;
+            padding: 30px 25px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .feature-card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 8px 25px rgba(102,126,234,0.15);
+        }
+        .feature-icon {
+            font-size: 40px;
+            margin-bottom: 15px;
+        }
+        .feature-card h3 {
+            font-size: 20px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+        .feature-card p {
+            color: #666;
+            font-size: 15px;
+        }
+        .section-title {
+            text-align: center;
+            font-size: 30px;
+            margin: 40px 0 30px;
+            color: #333;
+            position: relative;
+        }
+        .section-title::after {
+            content: '';
+            display: block;
+            width: 60px;
+            height: 3px;
+            background: linear-gradient(90deg, #667eea, #764ba2);
+            margin: 10px auto 0;
+            border-radius: 3px;
+        }
+        .content-section {
+            background: #fff;
+            border-radius: 12px;
+            padding: 40px 35px;
+            margin: 30px 0;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+        }
+        .content-section h2 {
+            font-size: 26px;
+            color: #4a3f8f;
+            margin-bottom: 20px;
+            border-left: 4px solid #667eea;
+            padding-left: 15px;
+        }
+        .content-section h3 {
+            font-size: 20px;
+            color: #444;
+            margin: 25px 0 12px;
+        }
+        .content-section p {
+            margin-bottom: 15px;
+            color: #555;
+        }
+        .content-section ul, .content-section ol {
+            margin: 15px 0 15px 20px;
+            color: #555;
+        }
+        .content-section li {
+            margin-bottom: 8px;
+        }
+        .comic-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+        .comic-card {
+            background: #fff;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+            transition: transform 0.3s, box-shadow 0.3s;
+            text-align: center;
+        }
+        .comic-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+        }
+        .comic-cover {
+            background: linear-gradient(135deg, #e0e5ff 0%, #d5d0ea 100%);
+            height: 150px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 50px;
+        }
+        .comic-info {
+            padding: 15px;
+        }
+        .comic-info h4 {
+            font-size: 16px;
+            color: #333;
+            margin-bottom: 5px;
+        }
+        .comic-info p {
+            font-size: 13px;
+            color: #888;
+            margin: 0;
+        }
+        .steps-list {
+            counter-reset: step;
+            list-style: none;
+        }
+        .steps-list li {
+            counter-increment: step;
+            position: relative;
+            padding-left: 45px;
+            margin-bottom: 20px;
+            font-size: 16px;
+        }
+        .steps-list li::before {
+            content: counter(step);
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 32px;
+            height: 32px;
+            background: #667eea;
+            color: #fff;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 32px;
+            font-weight: 700;
+            font-size: 14px;
+        }
+        .faq-item {
+            border-bottom: 1px solid #eee;
+            padding: 20px 0;
+        }
+        .faq-item:last-child {
+            border-bottom: none;
+        }
+        .faq-question {
+            font-weight: 600;
+            font-size: 17px;
+            color: #333;
+            margin-bottom: 8px;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .faq-question::after {
+            content: '+';
+            font-size: 22px;
+            color: #667eea;
+            font-weight: 400;
+        }
+        .faq-answer {
+            color: #666;
+            font-size: 15px;
+            line-height: 1.8;
+        }
+        .notice-box {
+            background: #fffbe6;
+            border-left: 4px solid #faad14;
+            padding: 15px 20px;
+            border-radius: 0 8px 8px 0;
+            margin: 20px 0;
+            font-size: 15px;
+        }
+        .tip-box {
+            background: #f0f2ff;
+            border-left: 4px solid #667eea;
+            padding: 15px 20px;
+            border-radius: 0 8px 8px 0;
+            margin: 20px 0;
+            font-size: 15px;
+        }
+        .btn {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: #fff;
+            padding: 12px 28px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: transform 0.2s, box-shadow 0.2s;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .btn:hover {
+            transform: scale(1.03);
+            box-shadow: 0 4px 15px rgba(102,126,234,0.3);
+        }
+        footer {
+            background: #2c3e50;
+            color: #b0b8c4;
+            padding: 40px 0 20px;
+            margin-top: 60px;
+        }
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-bottom: 30px;
+        }
+        .footer-col h4 {
+            color: #fff;
+            font-size: 18px;
+            margin-bottom: 15px;
+        }
+        .footer-col p, .footer-col a {
+            color: #b0b8c4;
+            font-size: 14px;
+            line-height: 1.8;
+            text-decoration: none;
+            display: block;
+        }
+        .footer-col a:hover {
+            color: #fff;
+        }
+        .copyright {
+            text-align: center;
+            border-top: 1px solid #4a5568;
+            padding-top: 20px;
+            font-size: 13px;
+        }
+        .related-links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        .related-links a {
+            background: #f0f2ff;
+            color: #667eea;
+            padding: 6px 16px;
+            border-radius: 20px;
+            font-size: 14px;
+            text-decoration: none;
+            transition: background 0.2s;
+        }
+        .related-links a:hover {
+            background: #e0e5ff;
+        }
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 28px;
+            }
+            .hero p {
+                font-size: 16px;
+            }
+            .feature-grid {
+                grid-template-columns: 1fr;
+                padding: 30px 0;
+            }
+            .content-section {
+                padding: 25px 20px;
+            }
+            .section-title {
+                font-size: 24px;
+            }
+            .comic-grid {
+                grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+                gap: 15px;
+            }
+            .nav-list li a {
+                padding: 10px 12px;
+                font-size: 14px;
+            }
+            .logo {
+                font-size: 22px;
+            }
+        }
+        @media (max-width: 480px) {
+            .comic-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .hero {
+                padding: 40px 0;
+            }
+            .hero h1 {
+                font-size: 24px;
+            }
+            .footer-content {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+    <script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container header-inner">
+            <div class="logo">歪歪漫画<span>免费观看</span></div>
+            <div style="font-size:14px; opacity:0.9;">海量漫画 · 轻松阅读</div>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul class="nav-list">
+                <li><a href="#home">首页</a></li>
+                <li><a href="#features">平台优势</a></li>
+                <li><a href="#guide">阅读指南</a></li>
+                <li><a href="#popular">热门分类</a></li>
+                <li><a href="#steps">使用步骤</a></li>
+                <li><a href="#faq">常见问题</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="container">
+                <div class="hero-badge">🔥 漫画爱好者聚集地</div>
+                <h1>歪歪漫画免费观看</h1>
+                <p>歪歪漫画是深受国内漫画迷喜爱的在线阅读平台，提供丰富多样的国漫、日漫、韩漫作品。本指南将为你详细介绍歪歪漫画免费观看的全部要点，助你快速找到心仪的作品并畅享阅读乐趣。</p>
+                <a href="#guide" class="btn">立即了解观看方法</a>
+            </div>
+        </section>
+
+        <div class="container">
+            <section id="features">
+                <h2 class="section-title">歪歪漫画平台优势</h2>
+                <div class="feature-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">📚</div>
+                        <h3>海量漫画资源</h3>
+                        <p>涵盖热血、恋爱、玄幻、悬疑、搞笑等多种题材，每日更新大量章节，满足不同口味的读者需求。无论是热门连载还是经典完结作品，都能轻松找到。</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">⚡</div>
+                        <h3>免费畅读体验</h3>
+                        <p>歪歪漫画核心特色在于提供大量免费漫画内容，读者无需付费即可浏览大部分作品。部分新章节或独家内容可能有限时免费活动，让阅读门槛大大降低。</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">📱</div>
+                        <h3>多端同步阅读</h3>
+                        <p>支持手机、平板和电脑等多种设备访问，页面简洁清爽，翻页流畅。无论你身处何地，都能随时打开歪歪漫画继续上一次的阅读进度。</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🎨</div>
+                        <h3>高清画质呈现</h3>
+                        <p>平台注重漫画画面的清晰度，多数作品提供高清原图，对话框文字清晰可读，让读者不错过每个细节，获得接近纸质漫画的阅读享受。</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🔍</div>
+                        <h3>智能分类搜索</h3>
+                        <p>提供精准的分类目录和关键词搜索功能，支持按题材、人气、更新时间等维度筛选，帮助读者从海量作品中快速锁定目标漫画。</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">💬</div>
+                        <h3>活跃读者社区</h3>
+                        <p>每部作品下都有读者评论区，可以发表感想、讨论剧情、推荐同好。平台还设有排行榜功能，让你随时了解当下最受欢迎的漫画作品。</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="guide" class="content-section">
+                <h2>歪歪漫画免费观看详细指南</h2>
+                <p>歪歪漫画免费观看并不复杂，但掌握正确的方法和入口会让整个过程更加顺畅。以下从访问方式、平台选择、内容筛选三个方面进行系统说明。</p>
+                
+                <h3>一、访问方式</h3>
+                <p>歪歪漫画主要以网页端和移动端两种形式提供服务。网页端通过浏览器直接访问，无需下载安装任何软件，适合电脑用户。移动端则推荐使用官方应用，在应用商店搜索关键词即可找到。建议优先选择官方网站或正规应用商店渠道，避免下载到仿冒或不安全的第三方版本。</p>
+                
+                <h3>二、平台选择建议</h3>
+                <p>由于网络环境的变化，歪歪漫画的域名或入口可能时有调整。若遇到页面无法访问的情况，可以尝试以下方法：搜索「歪歪漫画最新地址」获取当前可用的官方入口；关注漫画平台相关的社交媒体账号，通常会在第一时间发布最新的访问方式；也可以向身边同样使用歪歪漫画的朋友询问。</p>
+                
+                <div class="notice-box">
+                    <strong>温馨提示：</strong>请务必通过正规渠道访问歪歪漫画，不要轻信来路不明的链接，以防个人信息泄露或设备受到安全威胁。正规平台的漫画内容均经过审核，阅读体验也更稳定。
+                </div>
+
+                <h3>三、内容筛选技巧</h3>
+                <p>歪歪漫画的免费作品数量众多，初次使用时可能感到无从下手。建议先浏览首页的推荐位和排行榜，这些通常是近期人气最高的作品。也可以根据自己的兴趣在分类列表中探索，例如「热血冒险」「恋爱日常」「玄幻仙侠」「悬疑推理」等。关注平台的「新作速递」栏目，可以发现刚上架的新鲜内容。</p>
+            </section>
+
+            <section id="popular" class="content-section">
+                <h2>热门漫画分类推荐</h2>
+                <p>歪歪漫画免费观看平台上的作品题材丰富，以下是几个读者关注度较高的热门分类及特点介绍，供初次使用的朋友参考。</p>
+                <div class="comic-grid">
+                    <div class="comic-card">
+                        <div class="comic-cover">⚔️</div>
+                        <div class="comic-info">
+                            <h4>热血冒险</h4>
+                            <p>战斗、成长、友情</p>
+                        </div>
+                    </div>
+                    <div class="comic-card">
+                        <div class="comic-cover">💕</div>
+                        <div class="comic-info">
+                            <h4>恋爱日常</h4>
+                            <p>甜蜜、校园、青春</p>
+                        </div>
+                    </div>
+                    <div class="comic-card">
+                        <div class="comic-cover">🌌</div>
+                        <div class="comic-info">
+                            <h4>玄幻仙侠</h4>
+                            <p>修仙、异界、奇遇</p>
+                        </div>
+                    </div>
+                    <div class="comic-card">
+                        <div class="comic-cover">🔍</div>
+                        <div class="comic-info">
+                            <h4>悬疑推理</h4>
+                            <p>烧脑、破案、反转</p>
+                        </div>
+                    </div>
+                    <div class="comic-card">
+                        <div class="comic-cover">😂</div>
+                        <div class="comic-info">
+                            <h4>搞笑轻松</h4>
+                            <p>爆笑、日常、解压</p>
+                        </div>
+                    </div>
+                    <div class="comic-card">
+                        <div class="comic-cover">🧛</div>
+                        <div class="comic-info">
+                            <h4>奇幻异界</h4>
+                            <p>魔法、异世界、冒险</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tip-box">
+                    <strong>小贴士：</strong>热门分类下的作品更新频率通常较高，读者互动也更为活跃。如果你对某个分类特别感兴趣，可以关注该分类下的「编辑推荐」专区，往往有意外惊喜。
+                </div>
+            </section>
+
+            <section id="steps" class="content-section">
+                <h2>歪歪漫画免费观看使用步骤</h2>
+                <p>如果你是第一次接触歪歪漫画，按照以下简单步骤即可快速开始你的漫画阅读之旅。</p>
+                <ol class="steps-list">
+                    <li><strong>找到入口：</strong>通过搜索引擎或可靠渠道获取歪歪漫画当前可用的官方网址，或直接在应用商店下载官方APP。</li>
+                    <li><strong>浏览或搜索：</strong>进入首页后，你可以上下滑动查看推荐内容，也可以点击顶部的搜索框，输入漫画名称或作者姓名进行精确查找。</li>
+                    <li><strong>选择作品：</strong>点击感兴趣的漫画封面，进入详情页，查看简介、标签、评分和连载状态，确认是否符合自己的口味。</li>
+                    <li><strong>开始阅读：</strong>点击「开始阅读」或「免费试读」按钮，即可进入阅读界面。支持点击翻页或滑动翻页，可自由调整亮度、字号等。</li>
+                    <li><strong>收藏与追更：</strong>如果喜欢这部作品，记得点击「加入书架」或「收藏」，平台会在漫画更新时发送通知，方便你及时追看。</li>
+                </ol>
+                <p>整个过程无需注册即可阅读大部分内容，但注册并登录账号后，可以同步阅读记录、参与评论互动，并获得更个性化的推荐服务。</p>
+            </section>
+
+            <section id="faq" class="content-section">
+                <h2>歪歪漫画免费观看常见问题</h2>
+                <div class="faq-item">
+                    <div class="faq-question">歪歪漫画为什么无法访问或打开很慢？</div>
+                    <div class="faq-answer">这种情况可能是由于网络波动、域名解析异常或所在地区网络限制所致。建议先尝试更换网络环境，或清除浏览器缓存后再试。也可以关注官方渠道获取最新的可访问域名。若使用APP，请确保已更新到最新版本。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">歪歪漫画真的完全免费吗？</div>
+                    <div class="faq-answer">歪歪漫画的核心模式是免费阅读，平台内绝大多数漫画都可以免费观看。不过，部分新上线的热门作品或特殊版权内容可能设有短时间的付费抢先看或会员专享制度，但免费内容占整体资源的比例仍然很高，完全能满足日常阅读需求。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">在歪歪漫画上如何查找特定类型的漫画？</div>
+                    <div class="faq-answer">你可以在首页顶部的分类导航中浏览，平台通常将漫画细分为「热血」「恋爱」「玄幻」「悬疑」「搞笑」「科幻」等多个类别，点击即可查看该分类下的全部作品。同时使用搜索功能输入相关关键词，如「穿越」「重生」「校园」等，也能快速得到结果。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">歪歪漫画支持离线缓存阅读吗？</div>
+                    <div class="faq-answer">在歪歪漫画官方APP中，通常提供缓存或离线下载功能。你可以将正在追更的漫画章节提前缓存到手机中，这样在没有网络的环境下（如地铁或飞机上）也能随时阅读。网页版一般不提供此功能，建议使用APP获得更好体验。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">歪歪漫画是否安全，会不会有病毒或恶意广告？</div>
+                    <div class="faq-answer">从正规渠道（如官方应用商店、官方网站）下载或访问，安全性是有保障的。但需警惕一些仿冒网站或非官方APP，它们可能植入恶意广告或窃取用户信息。建议始终使用官方渠道，并保持手机安全软件的开启状态。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">如何在歪歪漫画上支持喜欢的作者？</div>
+                    <div class="faq-answer">阅读时积极评论、点赞、投推荐票是最直接的支持方式。部分平台还设有打赏或礼物功能，读者可以自愿为喜爱的作品送出虚拟礼物，帮助作品获得更多曝光。此外，将好作品分享给朋友也是很好的支持。</div>
+                </div>
+            </section>
+
+            <section class="content-section">
+                <h2>阅读歪歪漫画的注意事项</h2>
+                <p>在享受歪歪漫画免费观看带来的乐趣时，以下几点建议可以帮助你获得更安全、更愉快的阅读体验：</p>
+                <ul>
+                    <li><strong>保护个人信息：</strong>在社区发言时，注意不要透露手机号、家庭住址等敏感信息，防范网络诈骗。</li>
+                    <li><strong>合理安排时间：</strong>漫画虽好看，也要注意劳逸结合，避免长时间连续用眼，建议每隔45分钟休息一下。</li>
+                    <li><strong>尊重版权：</strong>支持正版漫画就是支持创作者。歪歪漫画上的免费内容已获得授权，请勿对内容进行二次传播或用于商业用途。</li>
+                    <li><strong>理性消费：</strong>如遇到付费内容或增值服务，请根据自身需求和财力理性选择，避免冲动消费。</li>
+                    <li><strong>注意内容分级：</strong>部分漫画可能包含暴力或成人向内容，请根据自身年龄和接受程度选择合适的作品，家长也应对未成年子女的阅读内容加以引导。</li>
+                </ul>
+            </section>
+
+            <section class="content-section">
+                <h2>歪歪漫画的未来发展与读者期待</h2>
+                <p>随着国内漫画产业的蓬勃发展，歪歪漫画也在不断优化平台功能和内容布局。未来，读者期待看到更多优质的原创国漫作品入驻，同时希望平台能进一步提升画质、加快更新速度、优化推荐算法，让每一位用户都能在歪歪漫画找到属于自己的精神食粮。</p>
+                <p>对于漫画创作者而言，歪歪漫画这样的免费平台也为其提供了更广阔的展示空间，让优秀作品能够被更多读者看见。这种良性循环正在推动整个漫画生态走向繁荣。</p>
+                <p>无论你是资深漫迷还是刚刚入坑的新人，歪歪漫画免费观看的大门始终为你敞开。现在就打开歪歪漫画，开启一段奇妙的阅读旅程吧！</p>
+                <div class="related-links">
+                    <a href="#home">返回首页</a>
+                    <a href="#features">平台优势</a>
+                    <a href="#guide">阅读指南</a>
+                    <a href="#popular">热门分类</a>
+                    <a href="#faq">常见问题</a>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h4>关于歪歪漫画</h4>
+                    <p>歪歪漫画是一个致力于为广大漫画爱好者提供免费、优质、丰富阅读资源的在线平台。我们相信，好的故事不应该被门槛阻挡。</p>
+                </div>
+                <div class="footer-col">
+                    <h4>快速导航</h4>
+                    <a href="#home">首页</a>
+                    <a href="#features">平台特色</a>
+                    <a href="#guide">观看指南</a>
+                    <a href="#faq">帮助中心</a>
+                </div>
+                <div class="footer-col">
+                    <h4>友情提示</h4>
+                    <p>请通过正规渠道访问歪歪漫画，合理规划阅读时间，享受健康快乐的漫画生活。</p>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>© 2025 歪歪漫画免费观看指南 · 本页面仅供信息参考 · 请支持正版漫画</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
